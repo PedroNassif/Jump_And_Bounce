@@ -21,7 +21,8 @@ class Score(object):
     
     def update(self, Bola):
         if Bola.colidiu_Score:
-            self.score += 100
+            self.score += 1
+            #reditag oila
             Bola.colidiu_Score = False
     
         return True
